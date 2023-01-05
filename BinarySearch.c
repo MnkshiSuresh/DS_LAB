@@ -27,7 +27,7 @@ int main() {
     printf("enter the no to be searched:");
     scanf("%d",&x);
    
-    middle=(first+last);
+    middle=(first+last)/2;
     while(first<last){
         if(x<array[middle]){
         last=middle-1;
