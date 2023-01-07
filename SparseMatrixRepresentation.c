@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 void readmatrix(int a[100][100],int r,int c){
     int i,j;
